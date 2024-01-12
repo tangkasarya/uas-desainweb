@@ -1,0 +1,143 @@
+* {
+ font-family: 'Poppins', sans-serif;
+}
+body {
+ background-image: url('aset/123.png');
+ background-size: cover;
+ background-position: center;
+}
+
+.bg {
+ min-width: 100vw;
+ min-height: 100vh;
+ background-color: rgba(28, 3, 40, 0.795);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.p1 {
+ color: #FFF;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 1.32px;
+text-transform: uppercase;
+}
+
+.p2 {
+ color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 111.111% */
+}
+
+.p3 {
+ color: #FFF;
+ font-family: Poppins;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 20px; /* 125% */
+ margin-top: 13px;
+}
+
+.p3 a {
+ color: #FFF;
+ font-family: Poppins;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 20px;
+ text-decoration-line: underline;
+}
+
+.btn-23, .btn-23:hover {
+ display: flex;
+width: 225px;
+padding: 17px 24px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 14px;
+background: #6100C2;
+
+color: var(--8, #FFF);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+}
+
+.popUp {
+ position: fixed;
+ border-radius: 40px;
+background: #21201E;
+width: 527px;
+height: 397px;
+padding: 30px 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.form {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.input {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ margin-top: 20px;
+}
+.popUp h2 {
+ color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 60% */
+}
+.input input{
+ margin-left: 20px;
+ padding-left: 20px;
+}
+.input label{
+ color: #FFF;
+ font-family: Poppins;
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px; /* 200% */
+}
+.input input {
+ background-color: transparent;
+ outline: none;
+ border: none;
+ border-bottom: 2px solid rgba(117, 44, 190, 0.63);;
+}
+.btn-24, .btn-24:hover {
+ border-radius: 20px;
+ background: rgba(117, 44, 190, 0.23);
+ width: 85px;
+height: 45px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+margin-top: 30px;
+}
